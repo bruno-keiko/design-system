@@ -1,0 +1,23 @@
+{
+  "name": "@design-system/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Begench <forgithubtobegench@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^8.1.6"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  }
+}
