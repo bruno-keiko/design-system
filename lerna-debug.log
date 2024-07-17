@@ -1,0 +1,7 @@
+46 error Error: Command failed with exit code 128: git add -- packages/foundation/package.json packages/scss/package.json packages/react/package.json playgrounds/react/package.json lerna.json
+46 error fatal: Pathspec 'packages/scss/package.json' is in submodule 'packages/scss'
+46 error     at makeError (/media/begench/Новый том/github codes/design-system/node_modules/execa/lib/error.js:59:11)
+46 error     at handlePromise (/media/begench/Новый том/github codes/design-system/node_modules/execa/index.js:114:26)
+46 error     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+46 error     at async VersionCommand.updatePackageVersions (/media/begench/Новый том/github codes/design-system/node_modules/lerna/dist/index.js:9883:11)
+46 error     at async Promise.all (index 0)
