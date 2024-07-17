@@ -1,5 +1,5 @@
 {
-  "name": "@ds.e/foundation",
+  "name": "@b.ds/foundation",
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
@@ -9,5 +9,8 @@
   },
   "devDependencies": {
     "typescript": "^5.5.3"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
